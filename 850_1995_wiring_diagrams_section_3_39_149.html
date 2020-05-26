@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>850_1995_wiring_diagrams_section_3_39_149</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="desc-db.js"></script>
+</head>
+<body>
+<div >
+    <h1 id="element-desc">
+        AW 50-42 electronically controlled automatic transmission Fenix 5.2 part 2
+    </h1>
+</div>
+<img src="850_1995_wiring_diagrams_section_3_39_149.jpg" usemap="#image-map">
+
+<map name="image-map" id="850_1995_wiring_diagrams_section_3_39_149">
+    <area class = "map-element" href="#2/31" data-id="2/31" coords="888,158,999,223" shape="rect">
+    <area class = "map-element" href="#11/1" data-id="11/1" coords="284,245,364,298" shape="rect">
+    <area class = "map-element" href="#11/27" data-id="11/27" coords="389,341,287,387" shape="rect">
+    <area class = "map-element" href="#11/33" data-id="11/33" coords="469,415,553,440" shape="rect">
+    <area class = "map-element" href="#11/12" data-id="11/12" coords="290,493,377,515" shape="rect">
+    <area class = "map-element" href="#2/28" data-id="2/28" coords="287,623,373,654" shape="rect">
+    <area class = "map-element" href="#31/50" data-id="31/50" coords="311,803,435,840" shape="rect">
+    <area class = "map-element" href="#5/1" data-id="5/1" coords="1861,112,1938,146" shape="rect">
+    <area class = "map-element" href="#10/79" data-id="10/79" coords="1099,484,1219,527" shape="rect">
+    <area class = "map-element" href="#31/15" data-id="31/15" coords="3187,310,3308,356" shape="rect">
+    <area class = "map-element" href="#4/41" data-id="4/41" coords="751,924,844,967" shape="rect">
+    <area class = "map-element" href="#4/28" data-id="4/28" coords="271,1212,380,1259" shape="rect">
+    <area class = "map-element" href="#24/14" data-id="24/14" coords="1095,732,1223,772" shape="rect">
+    <area class = "map-element" href="#24/2" data-id="24/2" coords="1706,744,1802,772" shape="rect">
+    <area class = "map-element" href="#24/13" data-id="24/13" coords="1901,738,2028,781" shape="rect">
+    <area class = "map-element" href="#3/9" data-id="3/9" coords="2617,741,2701,772" shape="rect">
+    <area class = "map-element" href="#3/71" data-id="3/71" coords="3237,601,3339,657" shape="rect">
+    <area class = "map-element" href="#24/15" data-id="24/15" coords="271,1330,404,1383" shape="rect">
+    <area class = "map-element" href="#3/72" data-id="3/72" coords="910,1345,1024,1386" shape="rect">
+    <area class = "map-element" href="#31/11" data-id="31/11" coords="1511,1147,1628,1184" shape="rect">
+    <area class = "map-element" href="#31/12" data-id="31/12" coords="1650,1116,1787,1159" shape="rect">
+    <area class = "map-element" href="#3/63" data-id="3/63" coords="1889,1159,2007,1221" shape="rect">
+    <area class = "map-element" href="#24/7" data-id="24/7" coords="2388,1162,2490,1221" shape="rect">
+    <area class = "map-element" href="#17/7" data-id="17/7" coords="265,1872,377,1910" shape="rect">
+    <area class = "map-element" href="#10/55" data-id="10/55" coords="1616,1596,1749,1637" shape="rect">
+    <area class = "map-element" href="#10/48" data-id="10/48" coords="1607,1677,1740,1711" shape="rect">
+    <area class = "map-element" href="#31/44" data-id="31/44" coords="1663,1984,1802,2040" shape="rect">
+    <area class = "map-element" href="#31/4" data-id="31/4" coords="1663,2133,1777,2176" shape="rect">
+    <area class = "map-element" href="#6/25" data-id="6/25" coords="1898,1696,2016,1742" shape="rect">
+    <area class = "map-element" href="#31/33" data-id="31/33" coords="2155,1689,2301,1730" shape="rect">
+    <area class = "map-element" href="#31/32" data-id="31/32" coords="2440,1683,2580,1736" shape="rect">
+</map>
+</body>
+</html>
+<style type="text/css">
+</style>
+<script type="text/javascript">
+$(function() {
+    $('.map-element').click(function(e) {
+        e.preventDefault();
+        var id = $(this).data('id');
+        var desc_text = descDB[id].desc;
+        console.log($(this).data('id'));
+        console.log(desc_text);
+        $("#element-desc").text(desc_text);
+    });
+});
+
+</script>
